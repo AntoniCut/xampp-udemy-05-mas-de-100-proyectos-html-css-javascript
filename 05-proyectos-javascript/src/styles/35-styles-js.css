@@ -1,0 +1,109 @@
+/*  **********  /04-curso-100-proyectos-html-css-js  ************  */
+/*  **********  /06-proyectos-javascript/  **********************  */
+/*  **********  /proyecto-35-js/assets/css/styles.css  **********  */
+/*  *************************************************************  */
+
+
+html {
+    font-size: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    /* background-color: #E8EFFA; */
+}
+
+.layout {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f8fd;
+    box-shadow: 1px 1px 8px #91c5e0;
+}
+
+.layout__header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+    text-align: center;
+    background-color: #bedff1;
+    box-shadow: 1px 1px 2px #91c5e0;
+}
+
+.header__logo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 4rem;
+}
+
+.header__title {
+    text-align: center;
+    text-shadow: 0px 0px 2px blue;
+}
+
+.layout__main {
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__title {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.main__card {
+    width: 45rem;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.card__container-img {
+    margin-bottom: 2rem;
+}
+
+.card__img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card__price {
+    text-align: center;
+    color: #4d0084;
+    font-weight: 700;
+}
+
+.card__btn {
+    display: inline-block;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #a435f0;
+    border-radius: 5px;
+    padding: 1rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.card__btn:hover {
+    background-color: #8e69a7;
+}
+

@@ -1,0 +1,253 @@
+/*
+    ------------------------------------------
+    ----------  /01-curso-jquery/  -----------
+    ----------  /src/styles/  ----------------
+    ----------  /layout-footer.css  ----------
+    ------------------------------------------
+*/
+
+
+.footer__container {
+    width: 100%;
+}
+
+.layout__footer {
+    width: 100%;
+    min-height: 20rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, rgb(189, 220, 230) 20%, rgb(133, 157, 189) 40%, rgb(100, 143, 230) 60%, rgb(197, 201, 221) 80%);
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*  -----  header  -----  */
+.footer__header {
+    position: relative; 
+    max-width: 102.4rem;
+    width: 100%;
+    height: 12rem;
+}
+
+/*  -----  logos  -----  */
+
+.footer__container-logos {
+    width: 20rem;
+    height: 12rem;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.footer__container-logos--jquery {
+    left: 2rem;
+}
+
+.footer__container-logos--jquery-ui {
+    right: 2rem;
+}
+
+.footer__jquery-logo,
+.footer__jquery-ui-logo {
+    width: 3rem;
+    height: 3rem;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.footer__jquery-banner,
+.footer__jquery-ui-banner {
+    width: 12rem;
+    height: auto;
+    mix-blend-mode: multiply;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+
+/*  -----  title  -----  */
+
+.footer__container-title {
+    width: 60rem;
+    height: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.footer__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    color: #E6EBF1;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.footer__separator {
+    max-width: 102.4rem;
+    width: 100%;
+    height: 0.1rem;
+    background-color: #E6EBF1;
+}
+
+
+/*  -----  Footer Main  -----  */
+
+.footer__main {
+    width: 100%;
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.footer__list {
+    width: 30rem;
+    min-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    gap: 0.5rem;
+    padding: 1rem;
+    border: 1px solid white;
+    background-color: #B7C1DF; 
+    box-shadow: 50px 50px 100px rgb(209, 220, 235);
+}
+
+.footer__list-title {
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    color: #fff;
+    border-bottom: 1px solid white;
+}
+
+.footer__item a {
+    font-size: 1.4rem;
+    margin-left: 2rem;
+    color: #f5e3e3;
+    &:hover {
+        margin-left: 4rem;
+        color: #fff;
+        font-weight: bold;    
+    }
+}
+
+.footer__list {
+    padding-bottom: 2rem;
+}
+
+/*
+    ----------------------------------
+    ----------  Responsive  ----------
+    ----------------------------------
+*/
+
+@media (max-width: 1675px) {
+
+
+}
+
+@media (max-width: 1380px) {
+
+        
+    .footer__jquery-banner,
+    .footer__jquery-ui-banner {
+        width: 15rem;
+        height: auto;
+        mix-blend-mode: multiply;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+    
+    .footer__separator {
+        width: 95%;
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+
+    .footer__container-title {
+        padding: 2rem;
+    }
+
+}
+
+@media (max-width: 950px) {
+
+    .footer__header {
+        height: 16rem;
+    }
+
+    .footer__container-title {
+        width: 40rem;
+        top:70%;
+    }
+
+}
+
+@media (max-width: 630px) {
+
+    .footer__title {
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .footer__header {
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem 0;
+    }
+
+    .footer__container-logos {
+        position: static;
+        width: 100%;
+        justify-content: center;
+        height: auto;
+    }
+
+    .footer__container-title {
+        position: static;
+        width: 100%;
+        transform: none;
+        height: auto;
+    }
+
+    .footer__title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .footer__title {
+        font-size: 1.6rem;
+    }
+
+}

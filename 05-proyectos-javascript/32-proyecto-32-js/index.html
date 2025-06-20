@@ -1,0 +1,90 @@
+<!--  **********  /04-curso-100-proyectos-html-css-js  **********  -->
+<!--  **********  /06-proyectos-javascript/  ********************  -->
+<!--  **********  /proyecto-32-js/index.html  *******************  -->
+<!--  ***********************************************************  -->
+
+<!--  
+
+    ----------  Enunciado Proyecto 32  ----------  
+
+    -  Debes maquetar un slider como este. Ver PDF.
+    -  A darle al botón de siguiente o anterior debes mostrar 
+       otra imagen haciendo una transición lateral. Ver PDF.
+              
+-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon/favicon-JS.ico">
+    <title> Proyecto 32 JS - + 100 Proyectos HTML, CSS y JS </title>
+
+    <!--  -----  Fonts  -----  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;900&family=Yuji+Mai&display=swap">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+
+    <!--  -----  Estilos  -----  -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+
+    <!--  -----  JS  -----  -->
+    <script src="./assets/js/32-main.js"> </script>
+
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <header class="layout__header">
+            <h1 class="layout__title"> Proyecto 32 -- JavaScript </h1>
+        </header>
+        
+        <main class="layout__main">
+
+            <button class="main__prev"> 
+                <i class="fa-solid fa-caret-left"> </i>
+            </button>
+
+            <section class="main__slides">
+
+                <article class="slides__item">
+                    <img class="slides__img" src="./assets/img/slide-1.jpg" alt="Paisaje 1" title="Paisaje 1">
+                </article>
+
+                <article class="slides__item">
+                    <img class="slides__img" src="./assets/img/slide-2.jpg" alt="Paisaje 2" title="Paisaje 2">
+                </article>
+
+                <article class="slides__item">
+                    <img class="slides__img" src="./assets/img/slide-3.jpg" alt="Paisaje 3" title="Paisaje 3">
+                </article>
+
+                <article class="slides__item">
+                    <img class="slides__img" src="./assets/img/slide-4.jpg" alt="Paisaje 4" title="Paisaje 4">
+                </article>
+
+                <article class="slides__item">
+                    <img class="slides__img" src="./assets/img/slide-5.jpg" alt="Paisaje 5" title="Paisaje 5">
+                </article>
+
+            </section>
+
+            <button class="main__next"> 
+                <i class="fa-solid fa-caret-right"> </i>
+            </button>
+                        
+        </main>
+
+    </div>
+
+</body>
+
+</html>

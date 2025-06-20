@@ -1,0 +1,87 @@
+<!--  **********  /04-curso-100-proyectos-html-css-js  **********  -->
+<!--  **********  /06-proyectos-javascript/  ********************  -->
+<!--  **********  /proyecto-34-js/index.html  *******************  -->
+<!--  ***********************************************************  -->
+
+<!--  
+
+    ----------  Enunciado Proyecto 34  ----------  
+
+    En este proyecto haremos un chat.
+    -  Primero haremos un efecto de carga desde cero. Ver PDF.
+    -  Y luego este chat. Ver PDF.
+    -  Debes hacer un circulo de carga y pasados 5 segundos debe mostrarse el chat.
+    -  En el chat podrás “enviar mensajes” y mostrarlos en pantalla. Ver PDF.
+              
+-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon/favicon-JS.ico">
+    <title> Proyecto 34 JS - + 100 Proyectos HTML, CSS y JS </title>
+
+    <!--  -----  Fonts  -----  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;900&family=Yuji+Mai&display=swap">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+
+    <!--  -----  Estilos  -----  -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+
+    <!--  -----  JS  -----  -->
+    <script src="./assets/js/34-main.js"> </script>
+
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <header class="layout__header">
+            <img src="./assets/favicon/favicon-JS.ico" class="header__logo">
+            <h1 class="header__title"> Proyecto 34 -- JavaScript </h1>
+            <img src="./assets/favicon/favicon-JS.ico" class="header__logo">
+        </header>
+        
+        <main class="layout__main">
+
+            <div class="main__messages">
+
+                <article class="messages__message">
+                    <p class="message__name"> Antonio Cutillas </p>
+                    <p class="message__text"> Bienvenido al chat </p>
+                </article>
+
+            </div>
+
+            <form class="main__form">
+
+                <input class="form__input" type="text" placeholder="Escribe tu mensaje aquí">
+                
+                <button type="submit" class="form__btn"> 
+                    <i class="fa-solid fa-caret-right"> </i>
+                </button>
+
+            </form>
+           
+                               
+        </main>
+
+        
+        <div class="layout__loader">
+            <span class="loader__circle"> </span>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
