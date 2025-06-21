@@ -22,7 +22,7 @@ export const loadComponentsLayout = async (headerTitle) => {
 
     // Cargar layout-header
     try {
-        const headerRes = await fetch('/05-mas-de-100-proyectos-html-css-js/06-proyectos-javascript/src/components-layout/layout-header.html');
+        const headerRes = await fetch('/05-mas-de-100-proyectos-html-css-js/05-proyectos-javascript/src/components-layout/layout-header.html');
         const headerHtml = await headerRes.text();
         layoutHeader.innerHTML = headerHtml;
 

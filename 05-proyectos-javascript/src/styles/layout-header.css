@@ -19,26 +19,24 @@
     left: 0;
     z-index: 100;
 
-    /* background: linear-gradient(
-        to right, 
-        #fff6b0 20%, 
-        #f0d840 40%, 
-        #d4b317 60%, 
-        #f7df1e 80%
-    ); */
+    background: linear-gradient(to right,
+            #fefcbf 0%,
+            /* amarillo pastel */
+            #fdf68f 25%,
+            /* amarillo suave */
+            #f7df1e 50%,
+            /* amarillo JS oficial */
+            #fff176 75%,
+            /* amarillo limón claro */
+            #fefcbf 100%
+            /* vuelve al pastel */
+        );
 
-    background: linear-gradient(
-        to right, 
-        #FFFED8 20%, 
-        #FFFED8 40%, 
-        #FFFED8 60%, 
-        #FFFED8 80%
-    );
 
-    box-shadow: 1px 1px 2px #91c5e0;
+    box-shadow: 1px 1px 20px #b4a8a8;
 
-    
-   
+
+
 }
 
 
@@ -67,15 +65,19 @@
 .header__logos {
     width: 4rem;
     height: 4rem;
+
     &:hover {
         transform: scale(1.1);
     }
 }
 
 .header__banner {
-    width: 20rem;
-    height: auto;
+    width: 10rem;
+    height:10rem;
+    /* height: auto; */
+    border-radius: 100%;
     mix-blend-mode: multiply;
+
     &:hover {
         transform: scale(1.1);
     }
@@ -103,7 +105,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 2.6rem;
+    font-size: 3rem;
     color: #E6EBF1;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -124,9 +126,9 @@
 @media (max-width: 1675px) {
 
     .header__container-title {
-        top: auto;                 
-        bottom: 2rem;              
-        transform: translateX(-50%); 
+        top: auto;
+        bottom: 2rem;
+        transform: translateX(-50%);
         gap: 2rem;
     }
 
@@ -142,8 +144,7 @@
         flex-direction: column;
     }
 
-    .header__jquery-logo,
-    .header__jquery-ui-logo {
+    .header__logos {
         width: 3.5rem;
         height: 3.5rem;
     }
@@ -153,6 +154,7 @@
         width: 15rem;
         height: auto;
         mix-blend-mode: multiply;
+
         &:hover {
             transform: scale(1.1);
         }
@@ -178,7 +180,7 @@
     }
 
     .header__container-title {
-        bottom: 1.5rem;              
+        bottom: 1.5rem;
         gap: 1.5rem;
     }
 
@@ -187,7 +189,7 @@
 @media (max-width: 630px) {
 
     .header__title {
-        font-size: 2rem;
+        font-size: 2.6rem;
     }
 
 }

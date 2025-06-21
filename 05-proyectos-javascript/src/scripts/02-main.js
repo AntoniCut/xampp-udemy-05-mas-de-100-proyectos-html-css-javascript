@@ -1,20 +1,24 @@
-//  **********  /04-curso-100-proyectos-html-css-js  *********** 
-//  **********  /06-proyectos-javascript/  ********************* 
-//  **********  /proyecto-02-js/assets/js/02-main.js  ********** 
-//  ************************************************************
-
-
 /*
-    ----------  Enunciado Proyecto 2  ----------  
-    -  1. Crea un fichero JavaScript y vinculalo con tu fichero HTML. 
-    -  2. Debes crear las variables: marca, velocidad, stock y modelos (array).
-    -  3. Mostrar las variables por la pantalla (con una frase).
-    -  4. Mostrar todos los elementos del array (sin hacerlo manualmente). 
+    -----------------------------------------------------------------------
+    ----------  /05-mas-de-100-proyectos-html-css-y-javascript/  ----------
+    ----------  /05-proyectos-javascript/  --------------------------------
+    ----------  /src/scripts/  --------------------------------------------
+    ----------  /01-main.js  ----------------------------------------------
+    -----------------------------------------------------------------------
 */
+
+
+import { loadComponentsLayout } from "/05-mas-de-100-proyectos-html-css-js/05-proyectos-javascript/src/scripts/load-components-layout.js";
+
 
 
 window.addEventListener('DOMContentLoaded', () => {
 
+
+    //  -----  cargar componentes de la layout  -----
+    loadComponentsLayout('Proyecto 2 JavaScript');
+
+    
     console.warn('-----  Proyecto 2 JS - main.js  -----');
     console.log('\n');
 
