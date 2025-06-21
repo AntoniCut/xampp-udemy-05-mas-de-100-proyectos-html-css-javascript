@@ -3,7 +3,7 @@
     ----------  /05-mas-de-100-proyectos-html-css-y-javascript/  ----------
     ----------  /05-proyectos-javascript/  --------------------------------
     ----------  /src/scripts/  --------------------------------------------
-    ----------  /01-main.js  ----------------------------------------------
+    ----------  /02-main.js  ----------------------------------------------
     -----------------------------------------------------------------------
 */
 
@@ -44,9 +44,9 @@ window.addEventListener('DOMContentLoaded', () => {
     //  -----  3. Mostrar las variables por la pantalla (con una frase)  -----
     //  -----  4. Mostrar todos los elementos del array (sin hacerlo manualmente) <ul> </ul>  -----
 
-    const content = document.querySelector('#content');
+    const $content = document.querySelector('#content');
 
-    content.innerHTML = `
+    $content.innerHTML = `
         
         <h3> Tenemos cohe de la marca... </h3>
         <p> Marca: ${marca} </p>

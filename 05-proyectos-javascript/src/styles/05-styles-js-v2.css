@@ -1,16 +1,15 @@
-/*  **********  /04-curso-100-proyectos-html-css-js  ************  */
-/*  **********  /06-proyectos-javascript/  **********************  */ 
-/*  **********  /proyecto-05-js/assets/css/styles.css  **********  */ 
-/*  *************************************************************  */
+/*
+    -----------------------------------------------------------------------
+    ----------  /05-mas-de-100-proyectos-html-css-y-javascript/  ----------
+    ----------  /05-proyectos-javascript/  --------------------------------
+    ----------  /src/styles/  ---------------------------------------------
+    ----------  /05-styles-js-v2.css  -------------------------------------
+    -----------------------------------------------------------------------
+*/
 
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    gap: 50px;
-    background-color: aliceblue;
+
+.layout {
+    background-color: #dbf1fd;
 }
 
 hr {
