@@ -8,20 +8,13 @@
 */
 
 
-import { loadComponentsLayout } from "/05-mas-de-100-proyectos-html-css-js/05-proyectos-javascript/src/scripts/load-components-layout.js";
+export const main02 = () => {
 
 
-
-window.addEventListener('DOMContentLoaded', () => {
-
-
-    //  -----  cargar componentes de la layout  -----
-    loadComponentsLayout('Proyecto 2 JavaScript');
-
-    
-    console.warn('-----  Proyecto 2 JS - main.js  -----');
     console.log('\n');
-
+    console.warn('-----  02-main.js  -----');
+    console.log('\n');
+    
     //  -----  1. Crea un fichero JavaScript y vinculalo con tu fichero HTML   -----
     alert('Proyecto 2 JavaScript - Fichero Vinculado');
 
@@ -58,4 +51,9 @@ window.addEventListener('DOMContentLoaded', () => {
             ${ modelos.map( modelo => `<li> ${modelo} </li>` ).join('') }
         </ul>
     `;
-})
+
+    
+}
+
+
+main02();

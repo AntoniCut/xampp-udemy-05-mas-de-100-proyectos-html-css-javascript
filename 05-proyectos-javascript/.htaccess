@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /05-mas-de-100-proyectos-html-css-js/05-proyectos-javascript/
+    RewriteRule ^index\.html$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /05-mas-de-100-proyectos-html-css-js/05-proyectos-javascript/index.html [L]
+</IfModule>
+
+

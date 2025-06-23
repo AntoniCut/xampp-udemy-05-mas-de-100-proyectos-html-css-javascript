@@ -1,15 +1,10 @@
 /*
-    ----------------------------------------------------
-    ----------  /01-curso-jquery-escuela-it/  ----------
-    ----------  /src/styles/layout.css  ----------------
-    ----------------------------------------------------
+    -------------------------------------------------------------
+    ----------  /05-mas-de-100-proyectos-html-css-js/  ----------
+    ----------  /src/styles/  -----------------------------------
+    ----------  /layout.css  ------------------------------------
+    -------------------------------------------------------------
 */
-
-
-@import '/05-mas-de-100-proyectos-html-css-js/05-proyectos-javascript/src/styles/layout-header.css';
-@import '/05-mas-de-100-proyectos-html-css-js/05-proyectos-javascript/src/styles/layout-navbar.css';
-@import '/05-mas-de-100-proyectos-html-css-js/05-proyectos-javascript/src/styles/layout-main.css';
-@import '/05-mas-de-100-proyectos-html-css-js/05-proyectos-javascript/src/styles/layout-footer.css';
 
 
 html {

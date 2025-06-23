@@ -8,20 +8,16 @@
 */
 
 
-import { loadComponentsLayout } from "/05-mas-de-100-proyectos-html-css-js/05-proyectos-javascript/src/scripts/load-components-layout.js";
 
+export const main03 = () => {
 
-window.addEventListener('DOMContentLoaded', () => {
-
-    //  -----  cargar componentes de la layout  -----
-    loadComponentsLayout('Proyecto 3 JavaScript');
 
     console.log('\n');
-    console.warn('-----  Proyecto 3 JS - main.js  -----');
+    console.warn('-----  03-main.js  -----');
     console.log('\n');
 
 
-    const $content = document.querySelector('#content');
+     const $content = document.querySelector('#content');
 
     let velocidadVehiculo = parseInt(prompt('¿ A que velocidad vas?', 50));
     const velocidadMaxima = 60;
@@ -36,7 +32,8 @@ window.addEventListener('DOMContentLoaded', () => {
         $content.innerHTML = `<h3> Velocidad correcta!!! </h3>`;
     }
 
-});
+    
+}
 
 
-
+main03();

@@ -8,24 +8,18 @@
 */
 
 
-import { loadComponentsLayout } from "/05-mas-de-100-proyectos-html-css-js/05-proyectos-javascript/src/scripts/load-components-layout.js";
+export const main01 = () => {
 
 
-
-window.addEventListener('DOMContentLoaded', () => {
-
-
-    //  -----  cargar componentes de la layout  -----
-    loadComponentsLayout('Proyecto 1 JavaScript');
-
-    
     console.log('\n');
-    console.warn('-----  Proyecto 1 JS - main.js  -----');
+    console.warn('-----  01-main.js  -----');
     console.log('\n');
 
 
     //  -----  referencias al HTML  -----
     const $content = document.querySelector('#content');
+
+    if (!$content) return;
 
 
     //  -----  1. Crea un fichero JavaScript y vinculalo con tu fichero HTML  -----
@@ -105,11 +99,8 @@ window.addEventListener('DOMContentLoaded', () => {
     `;
 
 
-
-});
-
+}
 
 
 
-
-
+main01();

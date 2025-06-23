@@ -1,0 +1,47 @@
+/*
+    -------------------------------------------------------------
+    ----------  /05-mas-de-100-proyectos-html-css-js/  ----------
+    ----------  /05-proyectos-javascript/  ----------------------
+    ----------  /src/styles/  -----------------------------------
+    ----------  /styles.css  ------------------------------------
+    -------------------------------------------------------------
+*/
+
+
+.main__home {
+    width: 100%;
+    max-width: 102.4rem;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(to right, rgb(196, 139, 66) 20%, rgb(238, 183, 34) 40%, rgb(236, 136, 43) 60%, rgb(184, 122, 42) 80%);
+    box-shadow: 0px 0px 10px #e4a757;
+}
+
+.home__header {
+    width: 100%;
+    height: 3rem;
+    /* background: linear-gradient(to right, rgb(214, 138, 39) 20%, rgb(194, 160, 65) 40%, rgb(194, 114, 39) 60%, rgb(209, 164, 106) 80%); */
+}
+
+.home__title {
+    font-size: 3rem;
+    color: #f1e8e8;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.home__separator {
+    max-width: 102.4rem;
+    width: 100%;
+    height: 2px;
+}
+
+.home__banner {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}

@@ -8,18 +8,14 @@
 */
 
 
-import { loadComponentsLayout } from "/05-mas-de-100-proyectos-html-css-js/05-proyectos-javascript/src/scripts/load-components-layout.js";
 
+export const main04 = () => {
 
-window.addEventListener('DOMContentLoaded', () => {
-
-
-    //  -----  cargar componentes de la layout  -----
-    loadComponentsLayout('Proyecto 4 JavaScript');
 
     console.log('\n');
-    console.warn('-----  Proyecto 4 JS - main.js  -----');
+    console.warn('-----  04-main.js  -----');
     console.log('\n');
+
 
     const $content = document.querySelector('#content');
 
@@ -44,4 +40,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
     };
 
-});
+    
+}
+
+
+main04();
