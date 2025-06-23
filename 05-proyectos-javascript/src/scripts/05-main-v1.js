@@ -8,14 +8,12 @@
 */
 
 
-import { loadComponentsLayout } from "/05-mas-de-100-proyectos-html-css-js/05-proyectos-javascript/src/scripts/load-components-layout.js";
+export const main05V1 = () => {
 
 
-window.addEventListener('DOMContentLoaded', () => {
-
-
-    //  -----  cargar componentes de la layout  -----
-    loadComponentsLayout('Proyecto 5 JavaScript - Version 1');
+    console.log('\n');
+    console.warn('-----  05-main-v1.js  -----');
+    console.log('\n');
 
 
     const tableContainer = document.querySelector('.tables');
@@ -57,5 +55,8 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+}
 
-});
+
+
+main05V1();

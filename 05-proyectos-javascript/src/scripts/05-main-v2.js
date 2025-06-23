@@ -3,22 +3,20 @@
     ----------  /05-mas-de-100-proyectos-html-css-y-javascript/  ----------
     ----------  /05-proyectos-javascript/  --------------------------------
     ----------  /src/scripts/  --------------------------------------------
-    ----------  /05-main-v1.js  -------------------------------------------
+    ----------  /05-main-v2.js  -------------------------------------------
     -----------------------------------------------------------------------
 */
 
 
-import { loadComponentsLayout } from "/05-mas-de-100-proyectos-html-css-js/05-proyectos-javascript/src/scripts/load-components-layout.js";
+export const main05V2 = () => {
 
 
-window.addEventListener('DOMContentLoaded', () => {
+    console.log('\n');
+    console.warn('-----  05-main-v2.js  -----');
+    console.log('\n');
 
 
-    // Cargar componentes de la layout
-    loadComponentsLayout('Proyecto 5 JavaScript - Version 2');
-
-
-    const tableContainer = document.querySelector('.tables');
+       const tableContainer = document.querySelector('.tables');
 
     // Bucle para crear tablas del 1 al 10
     for (let i = 1; i <= 10; i++) {
@@ -65,5 +63,8 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
 
+}
 
-});
+
+
+main05V2();

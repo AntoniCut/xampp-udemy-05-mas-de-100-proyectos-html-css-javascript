@@ -1,32 +1,40 @@
-//  **********  /04-curso-100-proyectos-html-css-js  ************** 
-//  **********  /06-proyectos-javascript/  ************************ 
-//  **********  /proyecto-07-js/assets/js/07-main-v1.js  ********** 
-//  ***************************************************************
-
-
 /*
-     ----------  Enunciado Proyecto 4  ----------  
-
-    -  Pidele al usuario su año de nacimiento en una ventana emergente
-       y calcula cuántos años tiene actualmente.
-    -  Si el año de nacimiento es menor de 1910 volver a pedir el año. 
+    -----------------------------------------------------------------------
+    ----------  /05-mas-de-100-proyectos-html-css-y-javascript/  ----------
+    ----------  /05-proyectos-javascript/  --------------------------------
+    ----------  /src/scripts/  --------------------------------------------
+    ----------  /05-main-v1.js  -------------------------------------------
+    -----------------------------------------------------------------------
 */
 
 
-const actualYear = new Date().getFullYear();
-let year = 1990;
-let result = 0;
+export const main07V1 = () => {
 
-do {
 
-    year = parseInt(prompt('¿En que año naciste?', year));
+    console.log('\n');
+    console.warn('-----  07-main-v1.js  -----');
+    console.log('\n');
 
-} while (year < (actualYear - 150) || year > actualYear);
+    const actualYear = new Date().getFullYear();
+    let year = 1990;
+    let result = 0;
 
-result = actualYear - year;
-alert('tienes ' + result + ' años');
+    do {
 
-const resultado = document.querySelector('#resultado');
-resultado.innerHTML = `
-    <h3> Tienes ${result} años </h3>
-`;
+        year = parseInt(prompt('¿En que año naciste?', year));
+
+    } while (year < (actualYear - 150) || year > actualYear);
+
+    result = actualYear - year;
+    alert('tienes ' + result + ' años');
+
+    const resultado = document.querySelector('#resultado');
+    resultado.innerHTML = `
+        <h3> Tienes ${result} años </h3>
+    `;
+
+}
+
+
+main07V1();
+
